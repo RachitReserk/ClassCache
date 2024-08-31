@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    .text-outline {
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+    }
+}
+
+@layer components{
+    .btn-primary{
+        @apply bg-black text-white hover:scale-110 font-semibold py-2 px-4 rounded-full duration-200;
+    }
+}
+
+@layer utilities {
+
+        .img-shadow{
+            filter: drop-shadow ( -6px 6px 10px rgba(0,0,0,0.4));
+        }
+           .footer-link{
+            @apply hover:underline hover:text-red-700 duration-200;
+           }
+     }
+
+     body, html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+      }
+      *{
+        box-sizing: border-box;
+        margin: 0;
+    }
+    section,footer{
+        overflow: hidden;
+        white-space: wrap;
+        word-break: break-word;
+    }
+
+    @media (min-height: 1138px) {
+        .show-below-1138 {
+          display: none;
+        }
+      }
+      @media (min-height: 1138px) {
+        .show-above-1138 {
+          display: flex;
+        }
+      }  

@@ -1,0 +1,44 @@
+{/*Branch*/}
+      
+      <div className='text-white'>Course</div>
+        <ul
+          className="p-3 space-y-3 text-sm text-gray-700 dark:text-gray-200"
+          aria-labelledby="dropdownCheckboxButton"
+        >
+          <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === 'All'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="All" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">All</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '1'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="CSE" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">CSE</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '2'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="AI" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">AI</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '3'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="DS" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">DS</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '4'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="ECE" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">ECE</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '5'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="Bsc" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">BSC</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '6'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="BBA" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">BBA</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '7'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="Mtech" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Mtech</label>
+    </div>
+    <div className="flex items-center mt-4 mb-4">
+    <input checked={branch === '8'} onChange={handleBranchRadio} id="default-radio-1" type="radio" value="Phd" name="default-radio" className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+    <label htmlFor="default-radio-1" className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Phd</label>
+    </div>
+        </ul>
